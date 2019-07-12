@@ -1,0 +1,21 @@
+@import './components/colors.scss';
+@import './components/functions.scss';
+@import './components/screens.scss';
+
+body {
+    background: $pink;
+    color: $white;
+
+    h1 {
+        @include pad(20px);
+        color: $red;
+
+        &.title {
+            margin: 10px;
+        }
+    }
+
+    a {
+        color: $yellow;
+    }
+}
